@@ -630,6 +630,11 @@
   dependencies:
     "@solid-primitives/utils" "^6.2.2"
 
+"@solid-primitives/i18n@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@solid-primitives/i18n/-/i18n-2.1.1.tgz#19826dabafa10b94abcd06f6c2a1b2b9bf6c5b91"
+  integrity sha512-1p9B8hveu+gzFRWfXcRtdzzEdr7gw3c8uLXm+2bU33JHgiI8kYJsWvG128sE6vU1ZtYGPrGq980Jd6hxYupyZQ==
+
 "@solid-primitives/keyboard@^1.2.5":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@solid-primitives/keyboard/-/keyboard-1.2.6.tgz#b23692239253478c406d6a7c61d0ff84a52a73d7"
