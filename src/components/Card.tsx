@@ -5,10 +5,11 @@ import { formatDateLong } from '../utils/date'
 interface IProps {
   thumbnail: string
   title: string
+  description?: string
   tags?: string[]
-  avatar: string
-  user: string
-  createdAt: string
+  avatar?: string
+  user?: string
+  createdAt?: string
   isHorizontal?: boolean
 }
 
@@ -21,6 +22,9 @@ const Card: Component<IProps> = (props) => (
     </figure>
     <div class="card-body">
       <h5>{props.title}</h5>
+      <Show when={props.description}>
+        <p>{props.description}</p>
+      </Show>
       <Show when={props.tags}>
         <div class="card-actions">
           <For each={props.tags}>
@@ -34,16 +38,18 @@ const Card: Component<IProps> = (props) => (
           </For>
         </div>
       </Show>
-      <div class="border-t my-2" />
-      <div class="flex gap-4">
-        <div>
-          <Avatar thumbnail={props.avatar} />
+      <Show when={props.avatar && props.user && props.createdAt}>
+        <div class="border-t my-2" />
+        <div class="flex gap-4">
+          <div>
+            <Avatar thumbnail={props.avatar} />
+          </div>
+          <div>
+            <p>{props.user}</p>
+            <p>{formatDateLong(props.createdAt)}</p>
+          </div>
         </div>
-        <div>
-          <p>{props.user}</p>
-          <p>{formatDateLong(props.createdAt)}</p>
-        </div>
-      </div>
+      </Show>
     </div>
   </div>
 )
