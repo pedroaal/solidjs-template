@@ -2,6 +2,7 @@ import { type JSX, type Component } from 'solid-js'
 
 import Header from './Header'
 import Footer from './Footer'
+import Whatsapp from '../components/Whatsapp'
 
 interface IProps {
   children?: JSX.Element
@@ -10,8 +11,9 @@ interface IProps {
 const MainLayout: Component<IProps> = (props) => (
   <div class="w-full min-h-screen flex flex-col">
     <Header />
-    {props.children}
+    <div class="grow w-full h-full">{props.children}</div>
     <Footer />
+    <Whatsapp />
   </div>
 )
 
