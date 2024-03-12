@@ -10,7 +10,45 @@
   "home": {
     "title": "Retiro real",
     "description": "Descubra la mejor experiencia de lujo para su amigo felino",
-    "action": "Reservar ahora"
+    "action": "Reservar ahora",
+    "services": {
+      "title": "En mi lujo",
+      "service1": "Suites lujosas",
+      "service2": "Servicios de spa",
+      "service3": "Comidas gourmet",
+      "service4": "Actividades de tiempo de juego ",
+      "service5": "Fiestas de peces ",
+      "service6": "Colección de juguetes ",
+      "service7": "Consejos de cuidado de gatos"
+    },
+    "addons": {
+      "title": "A mi lujo",
+      "addon1": {
+        "title": "Royal Cat Suite",
+        "description": "¡Disfrute de servicios premium!",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon2": {
+        "title": "Cosina de gato elegante",
+        "description": "Exquisitos platos para tu amigo felino",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon3": {
+        "title": "Día de spa mimado",
+        "description": "Relajación y preparación para tu gato",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon4": {
+        "title": "Área de juego VIP",
+        "description": "Experiencias de juego exclusivas para tu gato",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon5": {
+        "title": "Retiro de yoga de gato",
+        "description": "Un espacio tranquilo para la relajación felina",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      }
+    }
   },
   "about": {
     "title": "Sobre nosotros",

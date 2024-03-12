@@ -10,7 +10,45 @@
   "home": {
     "title": "royal retreat",
     "description": "Discover the ultimate luxury experience for your feline friend",
-    "action": "Book now"
+    "action": "Book now",
+    "services": {
+      "title": "In my Luxury",
+      "service1": "Luxurious Suites",
+      "service2": "Spa Services",
+      "service3": "Gourmet Meals",
+      "service4": "Playtime Activities",
+      "service5": "Fish Feasts",
+      "service6": "Toy Collection",
+      "service7": "Cat Care Tips"
+    },
+    "addons": {
+      "title": "At my luxury",
+      "addon1": {
+        "title": "Royal Cat Suite",
+        "description": "Indulge with premium services!",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon2": {
+        "title": "Fancy Cat Cuisine",
+        "description": "Exquisite dishes for your feline friend.",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon3": {
+        "title": "Pampering Spa Day",
+        "description": "Relaxation and grooming for your cat.",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon4": {
+        "title": "VIP Play Area",
+        "description": "Exclusive play experiences for your cat.",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      },
+      "addon5": {
+        "title": "Cat Yoga Retreat",
+        "description": "A tranquil space for feline relaxation.",
+        "thumbnail": "https://dummyimage.com/600x400/000/fff&text=test"
+      }
+    }
   },
   "about": {
     "title": "About us",
