@@ -9,9 +9,9 @@ const AboutPage: Component = () => {
 
   return (
     <div class="flex flex-col grow">
-      <Section class="bg-primary">
+      <Section class="bg-primary text-primary-content">
         <Section.Body class="p-20 flex justify-center">
-          <h1 class="text-6xl text-white">{t('about.title')}</h1>
+          <h1 class="text-6xl">{t('about.title')}</h1>
         </Section.Body>
       </Section>
       <Section>

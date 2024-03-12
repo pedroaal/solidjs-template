@@ -10,7 +10,7 @@ const Header: Component = () => {
   const { t } = useTranslateStore()
 
   return (
-    <header class="navbar bg-primary-100">
+    <header class="navbar bg-primary text-primary-content">
       <div class="flex-1">
         <a class="btn btn-ghost text-xl" href={ROUTES.HOME}>
           {t('navigation.home')}
@@ -25,7 +25,7 @@ const Header: Component = () => {
         <div class="flex gap-2">
           <LanguageSelector />
           <ThemeToggler />
-          <a class="btn btn-primary">{t('navigation.action')}</a>
+          <a class="btn btn-secondary">{t('navigation.action')}</a>
         </div>
       </div>
     </header>
