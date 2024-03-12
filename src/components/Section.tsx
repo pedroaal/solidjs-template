@@ -16,6 +16,7 @@ interface IBodyProps {
 interface IProps {
   children: JSXElement
   class?: string
+  id?: string
 }
 
 interface IComposition {
@@ -33,7 +34,9 @@ export const Body: Component<IBodyProps> = (props) => {
 
 const Section: Component<IProps> & IComposition = (props) => (
   <Context.Provider value={{}}>
-    <div class={`w-full p-6 md:p-4 ${props.class}`}>{props.children}</div>
+    <section id={props.id} class={`w-full p-6 md:p-4 ${props.class}`}>
+      {props.children}
+    </section>
   </Context.Provider>
 )
 
