@@ -1,5 +1,26 @@
 {
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "contact": "Contacto",
+    "action": "Reservar"
+  },
   "home": {
     "title": "Bienvenido!"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "content1": "Bienvenido al Luxury Cat Hotel, donde cada invitado felino es tratado como la realeza.Nuestras suites están diseñadas para la máxima comodidad y relajación, asegurando una estadía de ronroneo para su amada mascota.Nuestro equipo, compuesto por apasionados amantes de los gatos, se dedica a brindar atención y atención de primer nivel a todos nuestros invitados, asegurándose de que se sientan como en casa.Nos enorgullecemos de ofrecer una experiencia lujosa que tanto a ti como a tu gato amarán.",
+    "content2": "En el Luxury Cat Hotel, entendemos la importancia de crear un ambiente sin estrés para nuestros huéspedes.Es por eso que nuestras instalaciones están equipadas con servicios de última generación y espacios acogedores para que su gato explore y se relaje.Nuestro personal dedicado va más allá para satisfacer todas las necesidades, asegurando que cada gato reciba los mimos y el cuidado que merecen.Desde comidas gourmet hasta tiempo de juego personalizado, garantizamos una experiencia de cinco estrellas para su amigo peludo."
+  },
+  "footer": {
+    "title": "Nuestros servicios",
+    "service1": "Servicio 1",
+    "service2": "Servicio 2",
+    "service3": "Servicio 3",
+    "link1": "Enlace 1",
+    "link2": "Enlace 2"
   }
 }
