@@ -8,8 +8,10 @@ import { TranslateProvider } from './context/locale.context'
 import Alerts from './components/Alerts'
 import Loader from './components/Loader'
 
-import Home from './pages/Home'
 import MainLayout from './layouts/Main'
+
+import Home from './pages/Home'
+import About from './pages/About'
 
 const App: Component = () => (
   <CoreProvider>
@@ -18,6 +20,7 @@ const App: Component = () => (
       <Loader />
       <Router root={MainLayout}>
         <Route path={ROUTES.HOME} component={Home} />
+        <Route path={ROUTES.ABOUT} component={About} />
       </Router>
     </TranslateProvider>
   </CoreProvider>
