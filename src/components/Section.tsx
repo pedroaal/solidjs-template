@@ -34,7 +34,7 @@ export const Body: Component<IBodyProps> = (props) => {
 
 const Section: Component<IProps> & IComposition = (props) => (
   <Context.Provider value={{}}>
-    <section id={props.id} class={`w-full p-6 md:p-4 ${props.class}`}>
+    <section id={props.id} class={`w-full py-6 md:py-12 ${props.class}`}>
       {props.children}
     </section>
   </Context.Provider>

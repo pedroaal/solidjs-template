@@ -15,7 +15,7 @@ const AboutPage: Component = () => {
         </Section.Body>
       </Section>
       <Section>
-        <Section.Body class="grid grid-cols-2 items-center">
+        <Section.Body class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 items-center">
           <img src="https://dummyimage.com/600x400/000/fff&text=test" alt="" />
           <div class="px-10 py-6">
             <p>{t('about.content1')}</p>
@@ -23,7 +23,7 @@ const AboutPage: Component = () => {
         </Section.Body>
       </Section>
       <Section>
-        <Section.Body class="grid grid-cols-2 items-center">
+        <Section.Body class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 items-center">
           <div class="px-10 py-6">
             <p>{t('about.content2')}</p>
           </div>
