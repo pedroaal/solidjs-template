@@ -10,7 +10,7 @@ interface IProps {
 const MainLayout: Component<IProps> = (props) => (
   <div class="w-full min-h-screen flex flex-col">
     <Header />
-    <div class="container mx-auto p-6 md:p-4 grow">{props.children}</div>
+    {props.children}
     <Footer />
   </div>
 )
