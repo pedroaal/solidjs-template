@@ -8,7 +8,9 @@
     "action": "Book"
   },
   "home": {
-    "title": "Welcome!"
+    "title": "royal retreat",
+    "description": "Discover the ultimate luxury experience for your feline friend",
+    "action": "Book now"
   },
   "about": {
     "title": "About us",

@@ -8,7 +8,9 @@
     "action": "Reservar"
   },
   "home": {
-    "title": "Bienvenido!"
+    "title": "Retiro real",
+    "description": "Descubra la mejor experiencia de lujo para su amigo felino",
+    "action": "Reservar ahora"
   },
   "about": {
     "title": "Sobre nosotros",
